@@ -28,6 +28,9 @@ if (typeof window !== 'undefined') {
   window.customElements.define('wc-counter', WcCounter)
 }
 
+function createIsland(name: string, Component: FunctionComponent) {
+  
+}
 
 interface Props {
   start: number
